@@ -1,0 +1,12 @@
+{application, emqttd_plugin_state,
+ [
+  {description, "emqttd plugin state"},
+  {vsn, "1.1.3"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { emqttd_plugin_state_app, []}},
+  {env, []}
+ ]}.
